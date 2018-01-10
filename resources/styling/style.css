@@ -28,11 +28,10 @@ header .logo {
 nav {
   display: flex;
   align-items: center;
-  margin-right: 40px;
 }
 nav a {
-  margin-right: 30px;
   color: black;
+  padding: 20px 10px;
 }
 
 /*Main Content*/
@@ -42,8 +41,10 @@ nav a {
   position: relative;
   top: 80px;
   font-family: Georgia, serif;
+  font-size: 17px;
   color: black;
   width: 100%;
+  margin-bottom: 50px;
 }
 .column {
   margin: 30px 30px 60px 0;
@@ -101,9 +102,6 @@ h4 {
   font-weight: bold;
   text-align: center;
 }
-p {
-  font-size: 17px;
-}
 p.news-bites {
   background-color: WhiteSmoke;
   font-family: Verdana;
@@ -137,4 +135,36 @@ p.news-bites {
 }
 .image-content.cookie {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png);
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: mediumaquamarine;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-family: Verdana;
+  font-size: 12px;
+  color: black;
+  height: 325px;
+}
+.endnotes {
+  display: flex;
+  justify-content: center;
+}
+.endnotes .logo {
+  color: white;
+  font-size: 16px;
+  font-family: Georgia;
+  font-weight: bold;
+  padding: 0 25px 0 10px;
+  margin: 20px 25px 20px 0;
+  border-right: 2px solid white;
+}
+.copyright {
+  display: block;
+  margin: 0 auto;
 }
